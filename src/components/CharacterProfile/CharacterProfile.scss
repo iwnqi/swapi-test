@@ -1,0 +1,28 @@
+.CharacterProfile {
+  display: flex;
+  justify-content: flex-start;
+  margin: 15px;
+  color: white;
+  h2 {
+    margin: 0 10px 0;
+  }
+
+  .CharacterProfile__information {
+    position: relative;
+    .CharacterProfile__information__list {
+      list-style: none;
+      padding: 0;
+      li {
+        padding: 10px;
+      }
+    }
+  }
+  a:any-link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+
+    color: rgb(61, 210, 255);
+  }
+}
